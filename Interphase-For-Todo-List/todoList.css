@@ -1,0 +1,32 @@
+.objects{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+
+.button-icon{
+    background-color: green;
+    padding: 8px;
+    border: none;
+    color: white;
+
+}
+
+.name-css{
+    padding: 10px;
+}
+.date-css{
+    padding: 8px;
+}
+
+.delete-todo{
+    background-color: rgb(100, 4, 4);
+    padding: 8px;
+    border: none;
+    color: white;
+
+}
