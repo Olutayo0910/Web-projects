@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 3rem;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    padding: 0 50px;
+    background-color: white;
+    font-size: 24px;
+}
+.nav-title .nav-links {
+    display: flex;
+}
+
+.nav-title .nav-links li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    place-items: center;
+}
+
+.container h2 {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    width: 260px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h2 .color {
+    color: blue;
+}
+
+.container .btn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-radius: 4px;
+    width: 90px;
+    background-color: red;
+}
