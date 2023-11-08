@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+    background-color: azure;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 24px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container span {
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-container .btn {
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.btn-container .decrease,
+.btn-container .zero {
+    margin-right: 15px;
+}
+
+.btn-container .btn:hover {
+    opacity: 0.4;
+}
