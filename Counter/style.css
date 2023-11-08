@@ -2,7 +2,7 @@
 
 body {
     background-color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -18,11 +18,18 @@ main {
 .container {
     font-size: 24px;
 }
-.container span {
-    font-size: 46px;
+
+.container h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container span {
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .btn-container {
@@ -35,7 +42,12 @@ main {
 .btn-container .btn {
     padding: 10px;
     border: solid 1px black;
-    b
+    border-radius: 5px;
+}
+
+.btn-container .decrease,
+.btn-container .zero {
+    margin-right: 15px;
 }
 
 .btn-container .btn:hover {
