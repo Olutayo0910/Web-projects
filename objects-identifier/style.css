@@ -10,6 +10,10 @@
     font-size: 46px;
 }
 
+span {
+    margin-left: 10px;
+}
+
 .container {
     display: flex;
     max-width: 1000px;

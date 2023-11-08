@@ -5,6 +5,9 @@ const image = document.getElementById("image");
 const myName = document.getElementById("obj-name");
 const body = document.body;
 
+const extractedName = localStorage.getItem("extractedName");
+document.getElementById("myName").textContent = extractedName;
+
 const synth = window.speechSynthesis;
 
 body.addEventListener("click", function() {
