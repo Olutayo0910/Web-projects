@@ -22,8 +22,8 @@ main {
     top: -22%;
     left: 70%;
 }
-.container .abc-img {
-    max-width: 50%;
+span {
+    color: rgb(89, 0, 255);
 }
 
 .container h3 {
@@ -31,6 +31,8 @@ main {
 }
 .container h4 {
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 .name-input {
     border: solid 1px rgb(223, 210, 210);
@@ -43,4 +45,18 @@ main {
     display: flex;
     padding: 10px;
     margin-top: 10px;
+    margin-inline: auto;
+    border-radius: 5px;
+}
+.name {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 40%;
 }
