@@ -1,0 +1,75 @@
+.greet {
+    display: flex;
+    justify-content: center;
+}
+
+.greet h2 {
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    border: solid 1px rgb(145, 145, 189);
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+    display: flex;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media query for extra small screens (phones) */
+@media (max-width: 575px) {
+    .container {
+        top: 40%;
+    }
+    .name {
+        top: 60%;
+    }
+    /* Styles for extra small screens (phones) */
+}
+
+/* Media query for small screens (tablets) */
+@media (min-width: 576px) and (max-width: 991px) {
+    .container {
+        top: 40%;
+    }
+    .name {
+        top: 70%;
+    }
+    /* Styles for small screens (tablets) */
+}
+
+/* Media query for medium screens (small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        top: 70%;
+    }
+    .name {
+        top: 100%;
+    }
+    /* Styles for medium screens (small desktops) */
+}
+
+/* Media query for large screens (large desktops) */
+@media (min-width: 1200px) {
+    /* Styles for extra large screens (large desktops) */
+}
