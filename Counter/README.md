@@ -28,7 +28,7 @@ The JavaScript Counter Project is a simple web application that allows you to in
 
 ## Preview
 
-![JavaScript Counter Preview](counter-preview.png)
+![counter](https://github.com/Olutayo0910/Web-projects/assets/121323757/fe200869-2f70-42ae-8fbf-ec75fd791a92)
 
 ## Acknowledgments
 
@@ -41,4 +41,3 @@ This project was created as an educational exercise to practice JavaScript and D
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
