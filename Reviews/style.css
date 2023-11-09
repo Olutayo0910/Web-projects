@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 18, 37);
+}
+
+.img-container img {
+    width: 200px;
+    
+}
