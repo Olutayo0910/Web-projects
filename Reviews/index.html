@@ -5,26 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
 </head>
 <body>
-    <section class="container">
-        <div class="title">
-            <h2>Our Reviews</h2>
-            <div class="underline"></div>
-        </div>
-    </section>
-    <article>
-        <div class="img-container">
-            <img id="person-img" src="images/apple.png"/>
-        </div>
-        <h4 id="author">Chris Okotie</h4>
-        <p id="job">WEB DESIGNER</p>
-        <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Error doloribus soluta dicta, expedita dolores optio id pariatur,
-            et, illum quos facere. Ipsum, libero voluptates ab sed at hic harum
-            facilis.
-        </p>
-
-    </article>
+    <main>
+            <section class="container">
+                <div class="title">
+                    <h2>Our Reviews</h2>
+                    <div class="underline"></div>
+                </div>
+                <article class="review">
+                    <div class="img-container">
+                        <img id="person-img" src="images/apple.png"/>
+                    </div>
+                    <h4 id="author">Chris Okotie</h4>
+                    <p id="job">WEB DESIGNER</p>
+                    <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Error doloribus soluta dicta, expedita dolores optio id pariatur,
+                        et, illum quos facere. Ipsum, libero voluptates ab sed at hic harum
+                        facilis.
+                    </p>
+                    <div class="button-container">
+                        <button class="prev-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                        <!-- random button -->
+                    <div class="random">
+                        <button class="random-btn">surprise me</button>
+                    </div>        
+            </article>
+        </section>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
