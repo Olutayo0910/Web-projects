@@ -34,11 +34,36 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 
-const currentContent = 2;
+let currentContent = 0;
 window.addEventListener("DOMContentLoaded", function(){
+    showReview();
+});
+
+function showReview(){
     const rev = reviews[currentContent];
     img.src = rev.img;
     myName.textContent = rev.author;
     job.textContent = rev.job;
     text.textContent = rev.text;
+}
+
+prevBtn.addEventListener("click", function() {
+    currentContent--;
+    if (currentContent < 0) {
+        currentContent = reviews.length - 1;
+    }
+    showReview();
+});
+
+nextBtn.addEventListener("click", function(){
+    currentContent++;
+    if (currentContent > reviews.length - 1) {
+        currentContent = 0;
+    }
+    showReview();
+});
+
+randomBtn.addEventListener("click", function(){
+    currentContent = Math.floor(Math.random() * reviews.length);
+    showReview();
 });
