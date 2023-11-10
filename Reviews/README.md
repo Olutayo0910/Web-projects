@@ -2,8 +2,6 @@
 
 A simple web application that displays and navigates through a list of reviews. Users can view individual reviews, move to the previous or next review, and select a random review.
 
-![Review Carousel Screenshot](screenshot.png)
-
 ## Table of Contents
 
 - [Image](#demo)
