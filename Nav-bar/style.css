@@ -1,46 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
 body {
     background-color: rgb(216, 229, 233);
     padding: 0;
     margin: 0;
+    font-family: Roboto;
 }
 
 nav {
     background-color: white;
-    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-nav .nav-center {
-    display: flex;
-    width: 100%;
-}
-
-.nav-center .nav-header {
+.nav-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 50px;
+    align-items: center;
+    padding: 1rem;
 }
 
-button {
+.nav-toggle {
     background: none;
     border: none;
     font-size: 30px;
-    color: rgb(30, 92, 110);;
-}
-nav .nav-center .links {
-    display: none;
-    
+    color: rgb(30, 92, 110);
+    transition: 0.3s linear;
+    cursor: pointer;
 }
 
-nav .nav-center .links li {
-    display: flex;
-    align-items: center;
-    
+.nav-toggle:hover {
+    transform: rotate(90deg);
+    opacity: 0.2;
+}
+.links {
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s linear;
 }
 
-nav .nav-center .links a {
+.show-links {
+    height: 10rem;
+}
+
+.links a {
     text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    transition: 0.3s linear;
+    font-size: 20px;
+    color: rgb(88, 83, 83);
+}
+
+.links a:hover {
+    background: rgb(248, 246, 246);
+    color: rgb(88, 83, 83);
+    padding-left: 3px;
 }
 .social-icons {
     display: none;
 }
+.show-links {
+    height: 10rem;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  @media screen and (min-width: 800px) {
+    .nav-center {
+        max-width: 1170px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .nav-toggle {
+        display: none;
+      }
+      .links {
+        height: auto;
+        display: flex;
+      }
+      .links a {
+        padding: 0;
+        margin: 0 0.5rem;
+        color: rgb(30, 92, 110);
+      }
+      .links a:hover {
+        padding: 0;
+        background: transparent;
+      }
+      .social-icons {
+        display: flex;
+      }
+      .social-icons a {
+        margin: 0 0.5rem;
+        color: rgb(30, 92, 110);
+        transition: 0.3s linear;
+      }
+      .social-icons a:hover {
+        opacity: 0.1;
+      }
+  }
