@@ -105,3 +105,15 @@ nav {
         opacity: 0.1;
       }
   }
+
+.container {
+    display: flex;
+    background-color: rgb(243, 243, 241);
+}
+
+.container img {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    
+}
