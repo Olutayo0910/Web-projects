@@ -1,8 +1,6 @@
-eview Carousel
+# Review Carousel
 
 A simple web application that displays and navigates through a list of reviews. Users can view individual reviews, move to the previous or next review, and select a random review.
-
-![Review Carousel Screenshot](screenshot.png)
 
 ## Table of Contents
 
@@ -17,6 +15,8 @@ A simple web application that displays and navigates through a list of reviews. 
 - [License](#license)
 
 ## Image
+
+![reviews](https://github.com/Olutayo0910/Web-projects/assets/121323757/247f3253-0135-4647-b65e-39eafb62e802)
 
 ## Features
 
@@ -71,5 +71,3 @@ Create a pull request to the main repository.
 I would like to express my gratitude to the following online training resources that provided valuable insights and knowledge during the development of this project:
 
 - [freeCodeCamp](https://www.freeCodeCamp.org) - This platform provided in-depth guidance on web development techniques and JavaScript.
-
-
